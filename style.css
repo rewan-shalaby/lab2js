@@ -1,0 +1,53 @@
+#name{
+    width: 250px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+    border: 10px hidden rgb(211, 231, 225);
+    padding: 1em;
+}
+#pass{
+    width: 250px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+    border: 10px hidden rgb(211, 231, 225);
+    padding: 1em;
+}
+#button{
+	width: 280px;
+	height: 40px;
+	margin: 20px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: green;
+    border: 10px hidden rgb(211, 231, 225);
+    padding: 1em;
+}
+#button:hover{
+    background: rgb(169, 187, 7);
+    color: rgb(6, 61, 6);
+}
+#container {
+    background: white;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin:180px 500px  auto;
+    text-align: center;
+    justify-content: center;
+}
+#in1{
+    margin:100px  auto;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-color: green;
+}
+a{
+    color: green;
+}

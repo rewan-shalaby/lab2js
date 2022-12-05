@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form id="form">
+        <div id="in1">
+          <input id="name" type="text" placeholder="username" />
+          <input id="pass" type="password" placeholder="password" />
+          <button type="button" id="button" onclick="myFunction()">
+            login
+          </button>
+          <p>Not registered? <a href="">Create an account</a></p>
+        </div>
+      </form>
+    </div>
+    <!-- <p id="g"></p> -->
+    <script type="text/javascript">
+      function myFunction() {
+        // var text;
+        var user = document.getElementById("name").value;
+        var pswd = document.getElementById("pass").value;
+        if (user == "admin" && pswd == "123") {
+          //   text = "welcome";
+          alert("welcome");
+        } else {
+          //   text = "Not registered";
+          alert("not registered");
+        }
+        // document.getElementById("g").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
